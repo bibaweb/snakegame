@@ -1,0 +1,146 @@
+.page {
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  /* sticky footer */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  /* sticky footer */
+  flex: 1 0 auto;
+}
+
+.game__title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 35px 0;
+}
+
+.game__h2 {
+  margin: 25px 0;
+  font-size: 1.25rem;
+  text-align: left;
+}
+
+.game__rules {
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+}
+
+.game__score {
+  margin-bottom: 15px;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.game__button {
+  margin: 25px auto 0;
+  padding: 8px;
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  background-color: #ffb1b1;
+  box-shadow: -2px -2px #c40000 inset;
+  outline: none;
+  cursor: pointer;
+}
+
+.game__container {
+  margin: 0 auto;
+  width: 410px;
+  height: 410px;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: solid black 2px;
+  border-left: solid black 2px;
+  border-bottom: solid black 1px;
+  border-right: solid black 1px;
+}
+
+.game__square {
+  width: 40px;
+  height: 40px;
+  border-right: solid #c5c5c5 0.1px;
+  border-bottom: solid #c5c5c5 0.1px;
+}
+
+.game__snake {
+  background-color: darkolivegreen;
+}
+
+.game__apple {
+  background-image: url(./images/apple-icon.png);
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  flex: none;
+}
+
+.game__author {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.75rem;
+  text-align: right;
+  margin-right: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    width: 95%;
+  }
+
+  .game__title {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+
+  .game__h2 {
+    margin: 14px 0;
+    font-size: 1.05rem;
+  }
+
+  .game__rules {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .game__score {
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .game__button {
+    margin: 20px auto 0;
+    padding: 5px;
+    font-size: 0.9rem;
+  }
+
+  .game__container {
+    margin: 0 auto;
+    width: 310px;
+    height: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-bottom: solid black 1px;
+    border-right: solid black 1px;
+  }
+
+  .game__square {
+    width: 30px;
+    height: 30px;
+  }
+
+  .game__apple {
+    background-size: 30px 30px;
+  }
+}

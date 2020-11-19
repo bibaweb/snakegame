@@ -97,13 +97,21 @@
   }
 
   .game__title {
-    font-size: 1.6rem;
-    margin-bottom: 20px;
+    font-size: 1.3rem;
+    margin: 15px 0;
+  }
+
+  .game__score {
+    font-size: 1.1rem;
   }
 
   .game__h2 {
     margin: 14px 0;
     font-size: 1.05rem;
+  }
+
+  .game__h2 {
+    font-size: 1.1rem;
   }
 
   .game__rules {

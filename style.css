@@ -97,7 +97,7 @@
   }
 
   .game__title {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin: 15px 0;
   }
 
@@ -132,15 +132,8 @@
   }
 
   .game__container {
-    margin: 0 auto;
-    width: 310px;
-    height: 310px;
-    display: flex;
-    flex-wrap: wrap;
-    border-top: solid black 2px;
-    border-left: solid black 2px;
-    border-bottom: solid black 1px;
-    border-right: solid black 1px;
+    width: 304px;
+    height: 304px;
   }
 
   .game__square {
